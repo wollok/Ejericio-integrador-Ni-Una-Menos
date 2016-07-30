@@ -1,0 +1,11 @@
+import Agresiones.*
+import Policia.*
+import Actitudes.*
+import Persona.*
+
+test "SiUnaPersonaMilitanteRecibeUnaAgresionGraveDeUnFamiliarLaDenunciaQuedaRegistrada" {
+	var unaVictima = new Persona(actitudMilitante)
+	unaVictima.agregarFamiliar("Tito")
+	unaVictima.recibirAgresion(new Agresion ("Casa", "Tito", ["te","voy","a","matar"]))
+	assert.that(policia.denunciaRegistradaPor(unaVictima))
+}
