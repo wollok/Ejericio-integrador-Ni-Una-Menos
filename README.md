@@ -1,4 +1,4 @@
-# NiUnaMenos
+# Ni una menos
 ##Ejercicio de parcial
 
 
