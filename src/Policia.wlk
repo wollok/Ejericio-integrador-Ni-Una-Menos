@@ -8,9 +8,7 @@ object policia{
 		denuncias.add(new Denuncia(nroDenuncia, unaAgresion, unaPersona))
 	}
 	method denunciaRegistradaPor(unaVictima){
-		new Set()
-		return denuncias.get(nroDenuncia-1).victima() == unaVictima
-		
+		return !denuncias.isEmpty() and denuncias.get(nroDenuncia-1).victima() == unaVictima
 	}
 }
 	

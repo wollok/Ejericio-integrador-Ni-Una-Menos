@@ -9,3 +9,9 @@ test "SiUnaPersonaMilitanteRecibeUnaAgresionGraveDeUnFamiliarLaDenunciaQuedaRegi
 	unaVictima.recibirAgresion(new Agresion ("Casa", "Tito", ["te","voy","a","matar"]))
 	assert.that(policia.denunciaRegistradaPor(unaVictima))
 }
+test "SiUnaPersonaMiedosaRecibeUnaAgresionGraveDeUnFamiliarLaDenunciaNoQuedaRegistrada" {
+	var unaVictima = new Persona(actitudMiedosa)
+	unaVictima.agregarFamiliar("Tito")
+	unaVictima.recibirAgresion(new AgresionFisica ("Casa", "Tito", ["te","voy","a","matar"],combustible))
+	assert.notThat(policia.denunciaRegistradaPor(unaVictima))
+}
