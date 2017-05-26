@@ -1,10 +1,10 @@
 # Ni una menos
-##Ejercicio de parcial
+## Ejercicio de parcial
 
 
 **Sistema de seguimiento de denuncias de violencia de género**
 
-###Las agresiones
+### Las agresiones
 
 Se denominan agresiones a los hechos de violencia que sufre una persona. De cada  agresión se conoce el lugar donde fueron hechas, la persona que la efectuó y un conjunto de palabras utilizadas. Si la agresión llegó a un nivel físico se indica además el elemento utilizado. Se quiere saber 
 
@@ -12,7 +12,7 @@ Si una agresión es grave. Si se trata de una agresión común se considera grav
 
 Si una agresión es ígnea, lo cual, en el caso de las agresiones comunes, se valida que entre las palabras usadas esté "fuego". En las fisicas tambien, aunque si el elemento utilizado es un combustible, no es necesario verificar la palabra, ya que de todas maneras se considera que fue con fuego. 
 
-###Las denuncias
+### Las denuncias
 
 Cuando una persona, generalmente una mujer, recibe una agresión, analiza si hace o no una denuncia ante las autoridades, dependiendo de tres requisitos indispensables:
 
@@ -27,7 +27,7 @@ Cuando una persona, generalmente una mujer, recibe una agresión, analiza si hac
 Siempre la persona recuerda la agresión recibida. Además, si decide hacer la denuncia, la policía registra cuidadosamente cuál fue la agresión (con su correspondiente victimario) y la víctima. A su vez, le asigna un número correlativo de denuncia.
 
 
-###Concientización 
+### Concientización 
 
 Las experiencias que viven las personas hacen que la actitud frente a la vida y en especial su forma de reaccionar frente a la violencia de género vaya cambiando.
 
@@ -39,7 +39,7 @@ Cuando una persona es amenazada de muerte, si es miedosa continúa siéndolo; si
 
 
 
-###Se debe presentar:
+### Se debe presentar:
 
 El código completo de la definición de los objetos y clases necesarios para los ítems pedidos.
 
