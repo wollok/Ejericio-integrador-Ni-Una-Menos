@@ -36,7 +36,7 @@ class AgresionFisica inherits Agresion {
 	}
 	
 	override method esIgnea(){
-		return elemento == combustible or super()
+		return elemento == "combustible" or super()
 
 //		return elemento == combustible or palabras.contains("fuego")
 	}
