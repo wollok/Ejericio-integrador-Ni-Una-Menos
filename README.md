@@ -1,4 +1,7 @@
 # Ni una menos
+ 
+[![Build Status](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos.svg?branch=master)](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos)
+
 ## Ejercicio de parcial
 
 
