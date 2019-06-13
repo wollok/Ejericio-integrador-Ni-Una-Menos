@@ -1,5 +1,6 @@
 # Ni una menos
- 
+
+![](niUnaMenos.jpg)
 [![Build Status](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos.svg?branch=master)](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos)
 
 ## Ejercicio de parcial
@@ -22,10 +23,11 @@ Cuando una persona, generalmente una mujer, recibe una agresión, analiza si hac
 - El primer requisito es que la agresión sea grave. 
 - El segundo requisito es que la agresión haya sido hecha por una persona con un vínculo familiar con la víctima. Para ello, se cuenta con la información sobre la composición familiar de una persona.
 - El tercer requisito depende de la actitud de la persona frente a la vida y de los antecedentes de agresiones anteriores:
--- Si la persona tiene miedo, nunca hace la denuncia.
--- Si la persona es paciente, mientras sean pocas las agresiones recibidas anteriormente no hace nada, pero cuando llega a una cantidad de agresiones causadas por  la misma persona, que supera cierto umbral de tolerancia, considera hacer la denuncia. 
--- Si la persona es aguerrida, debe haber al menos una agresión previa que sea grave y haya sido hecha por algún familiar, sin importar que sea el mismo que ahora la agrede.
--- Si la persona se considera militante, sólo se validan los dos primeros requisitos. 
+
+1. Si la persona tiene miedo, nunca hace la denuncia.
+2. Si la persona es paciente, mientras sean pocas las agresiones recibidas anteriormente no hace nada, pero cuando llega a una cantidad de agresiones causadas por  la misma persona, que supera cierto umbral de tolerancia, considera hacer la denuncia. 
+3. Si la persona es aguerrida, debe haber al menos una agresión previa que sea grave y haya sido hecha por algún familiar, sin importar que sea el mismo que ahora la agrede.
+4. Si la persona se considera militante, sólo se validan los dos primeros requisitos. 
 
 Siempre la persona recuerda la agresión recibida. Además, si decide hacer la denuncia, la policía registra cuidadosamente cuál fue la agresión (con su correspondiente victimario) y la víctima. A su vez, le asigna un número correlativo de denuncia.
 
