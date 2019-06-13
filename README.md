@@ -37,20 +37,17 @@ Siempre la persona recuerda la agresión recibida. Además, si decide hacer la d
 
 Las experiencias que viven las personas hacen que la actitud frente a la vida y en especial su forma de reaccionar frente a la violencia de género vaya cambiando.
 
-Cuando una persona decide participar de una organización social que defiende los derechos de las víctimas de violencia, se vuelve militante.
+- Cuando una persona decide participar de una organización social que defiende los derechos de las víctimas de violencia, se vuelve militante.
 
-Cuando una persona recibe el acompañamiento cercano de otra persona, asume su misma actitud.  
+- Cuando una persona recibe el acompañamiento cercano de otra persona, asume su misma actitud.  
 
-Cuando una persona es amenazada de muerte, si es miedosa continúa siéndolo; si es paciente, se duplica su nivel de tolerancia, si es aguerrida se vuelve paciente, con un nivel de tolerancia 5; si es militante, pasa a ser simplemente aguerrida. 
+- Cuando una persona es amenazada de muerte, si es miedosa continúa siéndolo; si es paciente, se duplica su nivel de tolerancia, si es aguerrida se vuelve paciente, con un nivel de tolerancia 5; si es militante, pasa a ser simplemente aguerrida. 
 
 
 
 ### Se debe presentar:
 
-El código completo de la definición de los objetos y clases necesarios para los ítems pedidos.
-
-Un test que valide que al recibir una agresión la persona realice la denuncia. Elegir un caso sencillo.
-
-Una explicación acerca de la utilidad del polimorfismo en la solución.
-
-Justificar: Hay alguna situación que amerite lanzar una excepción?
+- El código completo de la definición de los objetos y clases necesarios para los ítems pedidos.
+- Un test que valide que al recibir una agresión la persona realice la denuncia. Elegir un caso sencillo.
+- Una explicación acerca de la utilidad del polimorfismo en la solución.
+- Justificar: Hay alguna situación que amerite lanzar una excepción?
