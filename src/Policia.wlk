@@ -5,7 +5,13 @@ object policia{
 
 	method recibirDenuncia(unaPersona, unaAgresion){
 		nroDenuncia += 1
-		denuncias.add(new Denuncia(nroDenuncia, unaAgresion, unaPersona))
+		denuncias.add(
+			new Denuncia(
+				numero = nroDenuncia, 
+				agresion = unaAgresion, 
+				victima = unaPersona
+			)
+		)
 	}
 	method denunciaRegistradaPor(unaVictima){
 		return !denuncias.isEmpty() and denuncias.get(nroDenuncia-1).victima() == unaVictima
@@ -14,16 +20,8 @@ object policia{
 	
 class Denuncia{
 
-	var nroDenuncia
+	var numero
 	var agresion
-	var victima 
-	
-	constructor (unNroDenuncia, unaAgresion, unaVictima) {
-		nroDenuncia = unNroDenuncia
-		agresion = unaAgresion
-		victima = unaVictima	
-	}
-	
-	method victima() = victima
+	var property victima 
 		
 }

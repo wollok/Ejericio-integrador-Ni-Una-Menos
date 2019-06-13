@@ -14,9 +14,7 @@ object actitudMiedosa {
 
 class ActitudPaciente{
 	var tolerancia 
-	constructor (unaTolerancia){
-		tolerancia = unaTolerancia
-	}
+
 	method permiteDenuncia(unaPersona, unaAgresion){
 		return unaPersona.cantidadDeAgresionesCausadasPor(unaAgresion.agresor()) > tolerancia
 	}
@@ -35,7 +33,7 @@ object actitudAguerrida{
 	}
 
 	method actitudFrenteALaAmenaza(){
-		return new ActitudPaciente(5)
+		return new ActitudPaciente(tolerancia = 5)
 	}
 
 }

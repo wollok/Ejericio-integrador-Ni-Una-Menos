@@ -7,18 +7,11 @@ class Persona{
 
 	var agresiones = [] 
 	var familia = []
-	var actitud
+	var property actitud
 	
-	constructor (unaActitud) {
-		actitud = unaActitud
-	}
-	
+
 	method agregarFamiliar(familiar) {
 		familia.add(familiar)
-	}
-		
-	method actitud(){
-		return actitud
 	}
 
 	method recibirAgresion(unaAgresion){
