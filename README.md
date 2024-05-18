@@ -1,6 +1,6 @@
 # Ni una menos
 
-[![Build Status](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos.svg?branch=master)](https://travis-ci.org/wollok/EjercicioIntegradorNiUnaMenos)
+[![Build Status](https://github.com/wollok/EjercicioIntegradorNiUnaMenos/actions/workflows/ci.yml/badge.svg)](https://github.com/wollok/EjercicioIntegradorNiUnaMenos/actions/workflows/ci.yml)
 
 ![](niUnaMEnos.jpg)
 
